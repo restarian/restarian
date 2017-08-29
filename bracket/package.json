@@ -1,0 +1,37 @@
+{
+  "name": "bracket_suite",
+  "version": "1.0.0",
+  "description": "Contains all of the Restarian packages.",
+  "main": "",
+  "private": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Restarian",
+    "suite"
+  ],
+  "license": "LGPL-3.0",
+  "dependencies": {
+    "bracket_print": "",
+    "bracket_dmz": "",
+    "bracket_assemble": ""
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/restarian/bracket_suite.git"
+  },
+  "maintainers": [
+    {
+      "name": "nickali",
+      "email": "RobertSteckroth@gmail.com"
+    }
+  ],
+  "author": {
+    "name": "Robert Steckroth",
+    "email": "RobertSteckroth@gmail.com",
+    "url": "https://restarian.com"
+  },
+  "readmeFilename": "README.md"
+}
