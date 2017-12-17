@@ -1,7 +1,7 @@
 {
-  "name": "bracket_suite",
+  "name": "brace_suite",
   "version": "1.0.0",
-  "description": "Contains all of the Restarian packages.",
+  "description": "Contains all of the open-sourced Restarian packages.",
   "main": "",
   "private": false,
   "scripts": {
@@ -11,16 +11,16 @@
     "Restarian",
     "suite"
   ],
-  "license": "LGPL-3.0",
+  "license": "MIT",
   "dependencies": {
-    "bracket_print": "",
-    "bracket_dmz": "",
-    "bracket_assemble": ""
+    "brace_umd": "",
+    "brace_navbar": "",
+    "brace_prototype": ""
 
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/restarian/bracket_suite.git"
+    "url": "git+https://github.com/restarian/brace_suite.git"
   },
   "maintainers": [
     {
