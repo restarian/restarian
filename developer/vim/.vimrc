@@ -1,6 +1,5 @@
 set viewoptions-=options
 
-
 augroup vimrc
     autocmd BufWritePost *
     \   if expand('%') != '' && &buftype !~ 'nofile'
@@ -26,13 +25,20 @@ hi SpellBad cterm=underline
 hi SpellWrong ctermfg=004
 hi SpellCap ctermfg=010
 
+let cur_dir = expand('%:p:h')
+let file_name = expand('%:t')
+
 let project_dir = system('git rev-parse --show-toplevel 2> /dev/null | sed s/[\\n,\\r,\\t]*$//')
+" This removes the newline from the git rev-parse output
 
-if project_dir =~ '/..*/'
-	let project_dir = substitute(project_dir, '\n*$', '', '') . "/vim_view_file.cfg"
+let project_dir = substitute(project_dir, '\n*$', '', '')
+let is_in = system("find " . project_dir . " -type d -not -path '*/\.*' -path " . cur_dir)
+
+" Do not create views for hidden files
+if file_name !~ '^\..*' && is_in != ""
+	let &viewdir = project_dir . "/vimfiles"
+	autocmd BufWritePost *.* mkview!
+	autocmd BufWinLeave *.* mkview!
+	autocmd BufWinEnter *.* silent loadview 
 endif
-
-exec "autocmd BufWritePost *.* mkview! " . project_dir
-exec "autocmd BufWinEnter *.* silent loadview " . project_dir
-
 
