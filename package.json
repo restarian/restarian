@@ -1,7 +1,7 @@
 {
   "name": "restarian",
   "version": "1.0.0",
-  "description": "The Restarian conglomerate -- Entities of this package are used for documentation purposes.",
+  "description": "Restarian Technology -- Entities of this package are used for development and documentation purposes.",
   "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,6 +15,6 @@
     "main"
   ],
   "author": "Robert Steckroth",
-  "license": "N/A-0.0",
+  "license": "UNLICENSED",
   "homepage": "https://github.com/restarian/restarian#readme"
 }
