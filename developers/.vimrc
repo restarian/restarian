@@ -36,9 +36,13 @@ let is_in = system("find " . project_dir . " -type d -not -path '*/\.*' -path " 
 
 " Do not create views for hidden files
 if file_name !~ '^\..*' && is_in != ""
-	let &viewdir = project_dir . "/vimfiles"
-	autocmd BufWritePost *.* mkview!
-	autocmd BufWinLeave *.* mkview!
-	autocmd BufWinEnter *.* silent loadview 
+	if isdirectory(project_dir . "/developers")
+		let &viewdir = project_dir . "/developers/vimfiles"
+	else
+		let &viewdir = project_dir . "/vimfiles"
+	endif
+		autocmd BufWritePost *.* mkview!
+		autocmd BufWinLeave *.* mkview!
+		autocmd BufWinEnter *.* silent loadview 
 endif
 
