@@ -6,15 +6,15 @@
 
 **Author**: Robert Steckroth, _Bust0ut_ [<RobertSteckroth@gmail.com>](mailto:robertsteckroth@gmail.com)
 
-## Brace
-![Brace](https://raw.githubusercontent.com/restarian/restarian/master/brace/doc/image/brace_logo_large.png)
+# Brace
+![Brace](https://raw.githubusercontent.com/restarian/restarian/master/brace/doc/image/brace_logo_medium.png)
 ____
 
-## Bracket 
-![Bracket](https://raw.githubusercontent.com/restarian/restarian/master/bracket/doc/image/bracket_logo_large.png)
+# Bracket 
+![Bracket](https://raw.githubusercontent.com/restarian/restarian/master/bracket/doc/image/bracket_logo_medium.png)
 ____
 
-## Batten
-![Batten](https://raw.githubusercontent.com/restarian/restarian/master/batten/doc/image/batten_logo_large.png)
+# Batten
+![Batten](https://raw.githubusercontent.com/restarian/restarian/master/batten/doc/image/batten_logo_medium.png)
 ____
 
