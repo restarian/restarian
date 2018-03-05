@@ -15,4 +15,4 @@
 
 [Brace logo]: https://raw.githubusercontent.com/restarian/restarian/master/brace/doc/image/brace_logo_medium.png
 [Bracket logo]: https://raw.githubusercontent.com/restarian/restarian/master/bracket/doc/image/bracket_logo_medium.png
-[Batten logo]: https://raw.githubusercontent.com/r
+[Bracket logo]: https://raw.githubusercontent.com/restarian/restarian/master/batten/doc/image/batten_logo_medium.png
