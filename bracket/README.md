@@ -17,6 +17,7 @@ ___
 
 ![Bracket](https://raw.githubusercontent.com/restarian/restarian/master/bracket/doc/image/bracket_logo_medium.png)
 
+---
 Copyright (C) 2018 Robert Steckroth <RobertSteckroth@gmail.com>
 
 Bracket Suite resides under the LGPL v3
@@ -31,4 +32,5 @@ or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for mor
 
 You should have received a copy of the GNU General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+---
 ![LGPLv3](https://raw.githubusercontent.com/restarian/restarian/master/bracket/doc/image/lgplv3-147x51.png)

@@ -15,3 +15,13 @@ ___
   * Requires an explicit sub-license to use
 
 ![Batten](https://raw.githubusercontent.com/restarian/restarian/master/batten/doc/image/batten_logo_medium.png)
+
+---
+Copyright (C) 2018 - Robert Steckroth <RobertSteckroth@gmail.com> Restarian Technology
+
+Batten Suite is a collection of javascript oriented works which carry this license.
+
+This software is fully licensed and distributed by the above entity with explicit terms and conditions detailed in the
+license document accompanying this file and its intellectual property. 
+
+---
