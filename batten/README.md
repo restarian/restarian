@@ -1,8 +1,8 @@
 # Batten Suite
 ## Restarian Technology
 
-### The batten suite is a collection of javascript centric libraries aimed at application development. 
-Projects labeled with the *Batten Suite* carry a **Unlicensed** copyright which has **All Rights Reserved**. Any technologies and works need to be explicitly sub-licensed before usage.
+### The batten suite is a collection of javascript centric libraries aimed at application development.
+Projects labeled with the *Batten Suite* carry an **Unlicensed** copyright which is **All Rights Reserved**. Any technologies and works need to be explicitly sub-licensed before usage.
 
 ___
 
@@ -22,6 +22,6 @@ Copyright (C) 2018 - Robert Steckroth <RobertSteckroth@gmail.com> Restarian Tech
 Batten Suite is a collection of javascript oriented works which carry this license.
 
 This software is fully licensed and distributed by the above entity with explicit terms and conditions detailed in the
-license document accompanying this file and its intellectual property. 
+license document accompanying this file and its intellectual property.
 
 ---

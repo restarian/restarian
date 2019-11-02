@@ -1,2 +1,4 @@
-node_modules
-npm-debug.log
+local/
+node_modules/
+*.sw[a-z]
+*.~
